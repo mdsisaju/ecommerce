@@ -1,0 +1,158 @@
+@font-face {
+ font-family:bebas;
+ src: url("BebasNeue.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: bebas;
+ src: url("BebasNeue.ttf") /* TTF file for CSS3 browsers */
+}
+
+.border{
+	border:2px solid red;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+body,h3{
+	padding: 0;
+	margin: 0;
+}
+.header h3, span{
+	color: #3cc3b5;
+	font-weight: bold;
+}
+.header{
+	padding: 20px;
+	background: #ffffff;
+}
+.container-fluid {
+ padding-right: 0; 
+ padding-left:0; 
+ margin-right: auto; 
+ margin-left: auto; 
+}
+.slider{
+	background: #3dc6b3;
+	padding: 15px 25px;
+}
+.slider_content{
+	margin-top: 80px;
+}
+.slider_content h3,button{
+	font-family: bebas;
+	color: white;
+	font-weight: bold;
+}
+.slider_content p{
+	font-family: bebas;
+	color: #81d6ce;
+}
+.slider_content button{
+	background:#3ec7b3;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 5px 10px;
+	
+
+}
+.featured_work{
+	background: #39c5b7;
+}
+.featured_work h3{
+	color: white;
+	font-family: bebas;
+	padding: 10px 10px; 
+}
+.back{
+	/*
+	*/
+	border: 1px solid rgb(236, 230, 230);
+	font-family: bebas;
+
+}
+.back button{
+	border: none;
+	background:#3ec7b3;
+}
+.product_1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer{
+	background: #2da89b;
+}
+.my_navbar{
+	background: #4ccfc1;
+	margin: 0;
+	border: none;
+}
+.navbar-default .navbar-nav>li>a {
+color: white;
+font-family: bebas;
+margin-left: 37px;
+}
+.a{
+	font-family: Lobster;
+	font-size: 34px;
+}
+#s1{
+	font-family: bebas;
+	color:#a1a1a1;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5px;
+}
+.content{
+	padding: 12px;
+	font-family: bebas;
+	color:#afafaf;
+}
+.content button{
+	background: #3cc395;
+	color: white;
+	border: none;
+	padding: 2px 12px;
+}
+.content_abt{
+	margin-top: 31px;
+}
+.about{
+	background: #3cc3b5;
+}
+.about_content ul li{
+	list-style: none;
+	text-align: left;
+	font-family: bebas;
+	color: #ebf8f6;
+}
+#about_1{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: white;
+}
+.footer p{
+	font-family: bebas;
+	color: white;
+	margin-top: 5px;
+}
+
+/*media quries*/
+@media (max-width: 767px) {
+	.content{
+		text-align: center;
+
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
